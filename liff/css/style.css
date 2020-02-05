@@ -1,0 +1,33 @@
+button {
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  margin: 8px auto
+}
+
+p {
+  border-bottom: 1px dashed #ddd
+}
+
+#pictureUrl {
+  display: block;
+  margin: 0 auto;
+  width: 12%;
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+}
+
+#getAccessToken, #utouId {
+  display: block;
+  overflow: auto
+}

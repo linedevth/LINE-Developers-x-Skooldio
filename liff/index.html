@@ -1,0 +1,65 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My LIFF App</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <img id="pictureUrl">
+  <p id="userId"></p>
+  <p id="displayName"></p>
+  <p id="statusMessage"></p>
+  <p id="os"></p>
+  <p id="language"></p>
+  <p id="version"></p>
+  <p id="isInClient"></p>
+  <p id="isLoggedIn"></p>
+  <p id="getAccessToken"></p>
+  <p id="getDecodedIDToken"></p>
+  <p id="getFriendship"></p>
+  <p id="type"></p>
+  <p id="viewType"></p>
+  <p id="utouId"></p>
+  <p id="roomId"></p>
+  <p id="groupId"></p>
+  <p id="scanCode"></p>
+  <button id="btnMsg" onclick="sendMsg()">Send Message</button>
+  <button onclick="openWindow()">Open Window</button>
+  <button id="btnScanCode" onclick="scanCode()">Scan Code</button>
+  <button id="btnSignOut" onclick="signOut()">Log Out</button>
+  <button id="btnClose" onclick="closed()">Close</button>
+
+  <!-- <script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script> -->
+  <script>
+    async function runApp() {
+    }
+
+    async function sendMsg() {
+    }
+
+    function openWindow() {
+    }
+
+    async function scanCode() {
+    }
+
+    function signOut() {
+    }
+
+    function closed() {
+    }
+
+    async function main() {
+      alert("Skooldio x LINEDEVTH")
+      await liff.init({ liffId: "YOUR-LIFF-ID" })
+    }
+    main()
+  </script>
+
+<!-- 
+  <script src="js/vconsole.min.js"></script>
+  <script>var vConsole = new VConsole()</script>
+ -->
+</body>
+</html>
