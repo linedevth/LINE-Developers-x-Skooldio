@@ -6,60 +6,72 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <p id="os"><b>OS:</b> </p>
+  <p id="language"><b>Language:</b> </p>
+  <p id="version"><b>Version:</b> </p>
+  <p id="isInClient"><b>isInClient:</b> </p>
+  <p id="accessToken"><b>AccessToken:</b> </p>
   <img id="pictureUrl">
-  <p id="userId"></p>
-  <p id="displayName"></p>
-  <p id="statusMessage"></p>
-  <p id="os"></p>
-  <p id="language"></p>
-  <p id="version"></p>
-  <p id="isInClient"></p>
-  <p id="isLoggedIn"></p>
-  <p id="getAccessToken"></p>
-  <p id="getDecodedIDToken"></p>
-  <p id="getFriendship"></p>
-  <p id="type"></p>
-  <p id="viewType"></p>
-  <p id="utouId"></p>
-  <p id="roomId"></p>
-  <p id="groupId"></p>
-  <p id="scanCode"></p>
+  <p id="userId"><b>userId:</b> </p>
+  <p id="displayName"><b>displayName:</b> </p>
+  <p id="statusMessage"><b>statusMessage:</b> </p>
+  <p id="decodedIDToken"><b>email:</b> </p>
+  <p id="type"><b>type:</b> </p>
+  <p id="viewType"><b>viewType:</b> </p>
+  <p id="utouId"><b>utouId:</b> </p>
+  <p id="roomId"><b>roomId:</b> </p>
+  <p id="groupId"><b>groupId:</b> </p>
+  <p id="friendship"><b>isFriendship:</b> </p>
+  <p id="scanCode"><b>Code:</b> </p>
+  <p id="isLoggedIn"><b>isLoggedIn:</b> </p>
+
   <button id="btnMsg" onclick="sendMsg()">Send Message</button>
   <button onclick="openWindow()">Open Window</button>
   <button id="btnScanCode" onclick="scanCode()">Scan Code</button>
-  <button id="btnSignOut" onclick="signOut()">Log Out</button>
+  <button id="btnLogOut" onclick="logOut()">Log Out</button>
   <button id="btnClose" onclick="closed()">Close</button>
 
   <!-- <script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script> -->
   <script>
-    async function runApp() {
-    }
-
-    async function sendMsg() {
-    }
-
-    function openWindow() {
-    }
-
-    async function scanCode() {
-    }
-
-    function signOut() {
+    function logOut() {
     }
 
     function closed() {
     }
 
+    async function scanCode() {
+    }
+
+    function openWindow() {
+    }
+
+    async function getFriendship() {
+    }
+
+    async function sendMsg() {
+    }
+
+    function getContext() {
+    }
+
+    async function getUserProfile() {
+    }
+
+    function getEnvironment() {
+    }
+
     async function main() {
       alert("LINE Developers x Skooldio")
       await liff.init({ liffId: "YOUR-LIFF-ID" })
+      // getEnvironment()
+      // getUserProfile()
+      // getContext()
+      // getFriendship()
     }
     main()
   </script>
 
-<!-- 
-  <script src="js/vconsole.min.js"></script>
-  <script>var vConsole = new VConsole()</script>
- -->
+  <!-- <script src="js/vconsole.min.js"></script> -->
+  <!-- <script>var vConsole = new VConsole()</script> -->
 </body>
 </html>
