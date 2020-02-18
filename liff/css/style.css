@@ -27,7 +27,7 @@ p {
   border-radius: 100px;
 }
 
-#getAccessToken, #utouId {
+#accessToken, #utouId {
   display: block;
   overflow: auto
 }
