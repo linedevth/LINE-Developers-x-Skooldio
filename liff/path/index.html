@@ -1,25 +1,24 @@
+<!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
   <title>Path</title>
+  <link rel="stylesheet" href="css/style.css" media="all">
 </head>
-
 <body>
   <h1>Hello World!</h1>
-  <p id="param"><b>Query Paran: </b></p>
-  <p id="displayName"><b>displayName: </b></p>
-  <p id="statusMessage"><b>statusMessage: </b></p>
+  <p id="param"><b>Query Param: </b></p>
+  <img id="pictureUrl">
+  <p id="userId"><b>userId:</b> </p>
+  <p id="displayName"><b>displayName:</b> </p>
+  <p id="statusMessage"><b>statusMessage:</b> </p>
+  <p id="decodedIDToken"><b>email:</b> </p>
   <script>
+    // Query Params
     const queryString = decodeURIComponent(window.location.search);
     const params = new URLSearchParams(queryString);
     document.getElementById("param").append(params.get("param"));
-    
-    // Web Storage
-    document.getElementById("displayName").append(sessionStorage.getItem("displayName"));
-    document.getElementById("statusMessage").append(localStorage.getItem("statusMessage"));
   </script>
 </body>
-
 </html>
