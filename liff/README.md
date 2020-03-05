@@ -6,6 +6,21 @@ Source code for LIFF v2 online course
 * Adding a [LIFF app](https://developers.line.biz/en/docs/liff/registering-liff-apps/#registering-liff-app)
 * Create a page on the [GitHub Pages](https://pages.github.com/)
 
+## Content you will learn from this online course
+* Setting up and initializing LIFF app
+* Getting LIFF Environment
+* Getting User Profile
+* Sending Message to Chat
+* Gaining Friends to your Official Account
+* Doing LIFF Actions
+* Supporting external browsers
+* Sharing message to the selected friends or groups
+* Promoting your LIFF
+* Initializing LIFF anywhere
+* Making sure LIFF app is ready
+* Debugging your LIFF app
+* Avoidance LIFF Caching
+
 ## Helpful blogs
 * รู้จักกับ LINE Front-end Framework เวอร์ชัน 2 หรือ [LIFF v2](https://medium.com/linedevth/85fdfb678cc6)
 * Deep dive into [LIFF & LINE Mini App](https://medium.com/linedevth/7a1de37eaeae)
