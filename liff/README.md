@@ -1,4 +1,4 @@
-# Building LIFF app 
+# Building app into LINE using LIFF
 Source code for LIFF v2 online course
 
 ## Prerequisites
