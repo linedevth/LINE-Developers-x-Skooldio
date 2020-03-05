@@ -16,3 +16,10 @@ Source code for LIFF v2 online course
 * เขียน [Automated UI Tests](https://medium.com/linedevth/dccbefce7ed5) ให้กับ LIFF App ด้วย Cypress.io
 
 ## Screenshots
+<table width="100%">
+	<tr>
+	  <th><img src="https://user-images.githubusercontent.com/1763410/75949415-c3d9d000-5ed8-11ea-8508-606b25b062f4.png" width="100%"></th>
+	  <th><img src="https://user-images.githubusercontent.com/1763410/75949419-c805ed80-5ed8-11ea-9a7e-b18f8dcacdfc.png" width="100%"></th>
+	  <th><img src="https://user-images.githubusercontent.com/1763410/75949422-cb00de00-5ed8-11ea-9e84-d737555cfcef.png" width="100%"></th>
+	</tr>
+</table>
