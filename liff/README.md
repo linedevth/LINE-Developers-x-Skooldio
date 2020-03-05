@@ -7,8 +7,10 @@ Source code for LIFF v2 online course
 * Create a page on the [GitHub Pages](https://pages.github.com/)
 
 ## Helpful blogs
-* [Share Target Picker](https://medium.com/linedevth/27b480681b5b) ฟีเจอร์ใหม่ใน LIFF(LINE Front-end Framework)
+* รู้จักกับ [LIFF v2](https://medium.com/linedevth/85fdfb678cc6)
 * เฉลยวิธีการดึง Email ของผู้ใช้ใน [LIFF v2](https://medium.com/linedevth/93ce9b944b57)
+* [Share Target Picker](https://medium.com/linedevth/27b480681b5b) ฟีเจอร์ใหม่ใน LIFF(LINE Front-end Framework)
 * สร้าง [Universal Link](https://medium.com/linedevth/7bf17a435339) ให้เปิดได้ทั้ง LIFF URL และ Web URL
+* สร้าง [Deep Link](https://medium.com/linedevth/9a130fbf53e0) ให้กับ LIFF App
 
 ## Screenshots
