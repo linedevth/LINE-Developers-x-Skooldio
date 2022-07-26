@@ -1,0 +1,373 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: white;
+  background: linear-gradient(45deg, #030c14 0%, #0c70e8 50%, #06cd40 75%);
+}
+
+#main {
+  overflow: hidden;
+}
+
+.bubble {
+  background-color: rgba(255, 255, 255, 0.4);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  border: 4px solid white
+}
+.bubble-1 {
+  left: 70vw;
+  top: 6vh;
+  animation: move-1 30.02s infinite;
+  -moz-transform: translate(0, 0) scale(1.35);
+  -ms-transform: translate(0, 0) scale(1.35);
+  -webkit-transform: translate(0, 0) scale(1.35);
+  transform: translate(0, 0) scale(1.35);
+}
+.bubble-2 {
+  left: 39vw;
+  top: 95vh;
+  animation: move-2 30.04s infinite;
+  -moz-transform: translate(0, 0) scale(0.97);
+  -ms-transform: translate(0, 0) scale(0.97);
+  -webkit-transform: translate(0, 0) scale(0.97);
+  transform: translate(0, 0) scale(0.97);
+}
+.bubble-3 {
+  left: 84vw;
+  top: 28vh;
+  animation: move-3 30.06s infinite;
+  -moz-transform: translate(0, 0) scale(0.17);
+  -ms-transform: translate(0, 0) scale(0.17);
+  -webkit-transform: translate(0, 0) scale(0.17);
+  transform: translate(0, 0) scale(0.17);
+}
+.bubble-4 {
+  left: 51vw;
+  top: 48vh;
+  animation: move-4 30.08s infinite;
+  -moz-transform: translate(0, 0) scale(0.61);
+  -ms-transform: translate(0, 0) scale(0.61);
+  -webkit-transform: translate(0, 0) scale(0.61);
+  transform: translate(0, 0) scale(0.61);
+}
+.bubble-5 {
+  left: 78vw;
+  top: 37vh;
+  animation: move-5 30.1s infinite;
+  -moz-transform: translate(0, 0) scale(0.33);
+  -ms-transform: translate(0, 0) scale(0.33);
+  -webkit-transform: translate(0, 0) scale(0.33);
+  transform: translate(0, 0) scale(0.33);
+}
+.bubble-6 {
+  left: 88vw;
+  top: 82vh;
+  animation: move-6 30.12s infinite;
+  -moz-transform: translate(0, 0) scale(1.54);
+  -ms-transform: translate(0, 0) scale(1.54);
+  -webkit-transform: translate(0, 0) scale(1.54);
+  transform: translate(0, 0) scale(1.54);
+}
+.bubble-7 {
+  left: 33vw;
+  top: 47vh;
+  animation: move-7 30.14s infinite;
+  -moz-transform: translate(0, 0) scale(1.81);
+  -ms-transform: translate(0, 0) scale(1.81);
+  -webkit-transform: translate(0, 0) scale(1.81);
+  transform: translate(0, 0) scale(1.81);
+}
+.bubble-8 {
+  left: 58vw;
+  top: 38vh;
+  animation: move-8 30.16s infinite;
+  -moz-transform: translate(0, 0) scale(1.22);
+  -ms-transform: translate(0, 0) scale(1.22);
+  -webkit-transform: translate(0, 0) scale(1.22);
+  transform: translate(0, 0) scale(1.22);
+}
+.bubble-9 {
+  left: 56vw;
+  top: 15vh;
+  animation: move-9 30.18s infinite;
+  -moz-transform: translate(0, 0) scale(1.19);
+  -ms-transform: translate(0, 0) scale(1.19);
+  -webkit-transform: translate(0, 0) scale(1.19);
+  transform: translate(0, 0) scale(1.19);
+}
+.bubble-10 {
+  left: 86vw;
+  top: 54vh;
+  animation: move-10 30.2s infinite;
+  -moz-transform: translate(0, 0) scale(1.88);
+  -ms-transform: translate(0, 0) scale(1.88);
+  -webkit-transform: translate(0, 0) scale(1.88);
+  transform: translate(0, 0) scale(1.88);
+}
+.bubble-11 {
+  left: 97vw;
+  top: 77vh;
+  animation: move-11 30.22s infinite;
+  -moz-transform: translate(0, 0) scale(0.77);
+  -ms-transform: translate(0, 0) scale(0.77);
+  -webkit-transform: translate(0, 0) scale(0.77);
+  transform: translate(0, 0) scale(0.77);
+}
+.bubble-12 {
+  left: 82vw;
+  top: 79vh;
+  animation: move-12 30.24s infinite;
+  -moz-transform: translate(0, 0) scale(1.05);
+  -ms-transform: translate(0, 0) scale(1.05);
+  -webkit-transform: translate(0, 0) scale(1.05);
+  transform: translate(0, 0) scale(1.05);
+}
+.bubble-13 {
+  left: 71vw;
+  top: 86vh;
+  animation: move-13 30.26s infinite;
+  -moz-transform: translate(0, 0) scale(0.94);
+  -ms-transform: translate(0, 0) scale(0.94);
+  -webkit-transform: translate(0, 0) scale(0.94);
+  transform: translate(0, 0) scale(0.94);
+}
+.bubble-14 {
+  left: 84vw;
+  top: 53vh;
+  animation: move-14 30.28s infinite;
+  -moz-transform: translate(0, 0) scale(0.12);
+  -ms-transform: translate(0, 0) scale(0.12);
+  -webkit-transform: translate(0, 0) scale(0.12);
+  transform: translate(0, 0) scale(0.12);
+}
+.bubble-15 {
+  left: 48vw;
+  top: 3vh;
+  animation: move-15 30.3s infinite;
+  -moz-transform: translate(0, 0) scale(0.83);
+  -ms-transform: translate(0, 0) scale(0.83);
+  -webkit-transform: translate(0, 0) scale(0.83);
+  transform: translate(0, 0) scale(0.83);
+}
+.bubble-16 {
+  left: 86vw;
+  top: 88vh;
+  animation: move-16 30.32s infinite;
+  -moz-transform: translate(0, 0) scale(1.71);
+  -ms-transform: translate(0, 0) scale(1.71);
+  -webkit-transform: translate(0, 0) scale(1.71);
+  transform: translate(0, 0) scale(1.71);
+}
+.bubble-17 {
+  left: 12vw;
+  top: 20vh;
+  animation: move-17 30.34s infinite;
+  -moz-transform: translate(0, 0) scale(1.07);
+  -ms-transform: translate(0, 0) scale(1.07);
+  -webkit-transform: translate(0, 0) scale(1.07);
+  transform: translate(0, 0) scale(1.07);
+}
+.bubble-18 {
+  left: 79vw;
+  top: 67vh;
+  animation: move-18 30.36s infinite;
+  -moz-transform: translate(0, 0) scale(0.25);
+  -ms-transform: translate(0, 0) scale(0.25);
+  -webkit-transform: translate(0, 0) scale(0.25);
+  transform: translate(0, 0) scale(0.25);
+}
+.bubble-19 {
+  left: 36vw;
+  top: 1vh;
+  animation: move-19 30.38s infinite;
+  -moz-transform: translate(0, 0) scale(0.19);
+  -ms-transform: translate(0, 0) scale(0.19);
+  -webkit-transform: translate(0, 0) scale(0.19);
+  transform: translate(0, 0) scale(0.19);
+}
+.bubble-20 {
+  left: 11vw;
+  top: 52vh;
+  animation: move-20 30.4s infinite;
+  -moz-transform: translate(0, 0) scale(1.89);
+  -ms-transform: translate(0, 0) scale(1.89);
+  -webkit-transform: translate(0, 0) scale(1.89);
+  transform: translate(0, 0) scale(1.89);
+}
+
+@keyframes move-1 {
+  44% {
+    -moz-transform: translate(-8vw, -71vh);
+    -webkit-transform: translate(-8vw, -71vh);
+    transform: translate(-8vw, -71vh);
+  }
+}
+@keyframes move-2 {
+  54% {
+    -moz-transform: translate(-7vw, -51vh);
+    -webkit-transform: translate(-7vw, -51vh);
+    transform: translate(-7vw, -51vh);
+  }
+}
+@keyframes move-3 {
+  33% {
+    -moz-transform: translate(-49vw, -1vh);
+    -webkit-transform: translate(-49vw, -1vh);
+    transform: translate(-49vw, -1vh);
+  }
+}
+@keyframes move-4 {
+  34% {
+    -moz-transform: translate(-99vw, -95vh);
+    -webkit-transform: translate(-99vw, -95vh);
+    transform: translate(-99vw, -95vh);
+  }
+}
+@keyframes move-5 {
+  55% {
+    -moz-transform: translate(-20vw, -79vh);
+    -webkit-transform: translate(-20vw, -79vh);
+    transform: translate(-20vw, -79vh);
+  }
+}
+@keyframes move-6 {
+  58% {
+    -moz-transform: translate(-20vw, -16vh);
+    -webkit-transform: translate(-20vw, -16vh);
+    transform: translate(-20vw, -16vh);
+  }
+}
+@keyframes move-7 {
+  38% {
+    -moz-transform: translate(-23vw, -96vh);
+    -webkit-transform: translate(-23vw, -96vh);
+    transform: translate(-23vw, -96vh);
+  }
+}
+@keyframes move-8 {
+  35% {
+    -moz-transform: translate(-69vw, -60vh);
+    -webkit-transform: translate(-69vw, -60vh);
+    transform: translate(-69vw, -60vh);
+  }
+}
+@keyframes move-9 {
+  36% {
+    -moz-transform: translate(-45vw, -5vh);
+    -webkit-transform: translate(-45vw, -5vh);
+    transform: translate(-45vw, -5vh);
+  }
+}
+@keyframes move-10 {
+  39% {
+    -moz-transform: translate(-46vw, -43vh);
+    -webkit-transform: translate(-46vw, -43vh);
+    transform: translate(-46vw, -43vh);
+  }
+}
+@keyframes move-11 {
+  36% {
+    -moz-transform: translate(-24vw, -56vh);
+    -webkit-transform: translate(-24vw, -56vh);
+    transform: translate(-24vw, -56vh);
+  }
+}
+@keyframes move-12 {
+  31% {
+    -moz-transform: translate(-39vw, -17vh);
+    -webkit-transform: translate(-39vw, -17vh);
+    transform: translate(-39vw, -17vh);
+  }
+}
+@keyframes move-13 {
+  49% {
+    -moz-transform: translate(-79vw, -56vh);
+    -webkit-transform: translate(-79vw, -56vh);
+    transform: translate(-79vw, -56vh);
+  }
+}
+@keyframes move-14 {
+  52% {
+    -moz-transform: translate(-82vw, -62vh);
+    -webkit-transform: translate(-82vw, -62vh);
+    transform: translate(-82vw, -62vh);
+  }
+}
+@keyframes move-15 {
+  32% {
+    -moz-transform: translate(-9vw, -20vh);
+    -webkit-transform: translate(-9vw, -20vh);
+    transform: translate(-9vw, -20vh);
+  }
+}
+@keyframes move-16 {
+  47% {
+    -moz-transform: translate(-19vw, -45vh);
+    -webkit-transform: translate(-19vw, -45vh);
+    transform: translate(-19vw, -45vh);
+  }
+}
+@keyframes move-17 {
+  32% {
+    -moz-transform: translate(-73vw, -64vh);
+    -webkit-transform: translate(-73vw, -64vh);
+    transform: translate(-73vw, -64vh);
+  }
+}
+@keyframes move-18 {
+  45% {
+    -moz-transform: translate(-44vw, -81vh);
+    -webkit-transform: translate(-44vw, -81vh);
+    transform: translate(-44vw, -81vh);
+  }
+}
+@keyframes move-19 {
+  32% {
+    -moz-transform: translate(-69vw, -66vh);
+    -webkit-transform: translate(-69vw, -66vh);
+    transform: translate(-69vw, -66vh);
+  }
+}
+@keyframes move-20 {
+  56% {
+    -moz-transform: translate(-42vw, -49vh);
+    -webkit-transform: translate(-42vw, -49vh);
+    transform: translate(-42vw, -49vh);
+  }
+}

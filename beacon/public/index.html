@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>LINE Beacon 101</title>
+  <link rel="stylesheet" type="text/css" href="beacon.css">
+</head>
+
+<body>
+  <div id='main'></div>
+
+  <script src="/__/firebase/8.10.1/firebase-app.js"></script>
+  <script src="/__/firebase/8.10.1/firebase-firestore.js"></script>
+  <script src="/__/firebase/init.js?useEmulator=true"></script>
+  
+  <script>
+    const db = firebase.firestore();
+    const mainDiv = document.querySelector("#main");
+    async function main() {
+      let i = 1
+      db.collection("beacons").limit(20).onSnapshot((snapshot) => {
+        snapshot.docChanges().forEach((change) => {
+          if (change.type === "added") {
+            mainDiv.insertAdjacentHTML('beforeend', `<div class='bubble bubble-${i}'></div>`);
+            const bubble = document.querySelector(`.bubble-${i}`);
+            bubble.style.backgroundImage = `url("${change.doc.data().pictureUrl}")`;
+            i++
+          }
+        });
+      });
+    }
+    main()
+  </script>
+</body>
+
+</html>
